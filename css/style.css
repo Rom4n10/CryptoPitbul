@@ -8,11 +8,12 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --bg-color: #8cc2ebd8;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #be7efe;
   --header-shadow: #000 0px 0px 5px;
+  --pp-color:#65d895c1;
 }
 
 * {
@@ -115,7 +116,7 @@ section {
   height: auto;
 }
 .countdown .clock-item .count-number {
-  background: var(--accent-color);
+  background: var(--pp-color);
   color: var(--font-color);
   font-size: 2rem;
   font-weight: 700;
